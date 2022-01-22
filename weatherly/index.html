@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weatherly</title>
+</head>
+<body>
+    <h1>Weatherly</h1>
+    <form id="search-form">
+        <input type="search" id="search-input" placeholder="Enter City Name" required autocomplete="off">
+        <br>
+        <br>
+        <button id="search-button">Search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>------------</p>
+        </div>
+
+        <div id="temp">
+            <img src="images/clear.png" id="temp-icon" alt="">
+            <p><span id="temp-value">---------</span id="temp-unit"><span>&#176c</span></p>
+        </div>
+
+        <div id="climate">
+            <p>---------</p>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
